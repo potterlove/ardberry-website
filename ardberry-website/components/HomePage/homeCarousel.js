@@ -11,11 +11,14 @@ const HomeCarousel = () => {
       interval={2000}
       autoPlay={true}
       showStatus={false}
-      className="h-screen"
     >
       {homeCarouselImages.map((image, index) => (
         <div key={index}>
-          <img className="h-screen" src={`/images/${image}`} />
+          <img
+            className=""
+            style={{ height: '50vw' }}
+            src={`/images/${image}`}
+          />
         </div>
       ))}
     </Carousel>
