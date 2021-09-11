@@ -95,10 +95,7 @@ export default function Navbar({ isTransparentNav }) {
           <ClickAwayListener onClickAway={handleClickAway}>
             <Disclosure.Panel
               defaultOpen={true}
-              className="md:hidden bg-white -mt-24 w-1/2 z-30 absolute"
-              style={{
-                marginLeft: '50%',
-              }}
+              className="md:hidden bg-white -mt-24 w-full py-8 z-30 absolute"
             >
               <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md absolute right-5 top-5 text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <span className="sr-only">Open main menu</span>

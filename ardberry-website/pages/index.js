@@ -1,4 +1,5 @@
-import HomeCarousel from 'components/homeCarousel'
+import AboutUs from 'components/HomePage/AboutUs'
+import HomeCarousel from 'components/HomePage/homeCarousel'
 import Navbar from 'components/navbar'
 import 'tailwindcss/tailwind.css'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Navbar />
       <HomeCarousel />
+      <AboutUs />
     </>
   )
 }

@@ -10,6 +10,7 @@ const HomeCarousel = () => {
       stopOnHover={false}
       interval={2000}
       autoPlay={true}
+      showStatus={false}
       className="h-screen"
     >
       {homeCarouselImages.map((image, index) => (

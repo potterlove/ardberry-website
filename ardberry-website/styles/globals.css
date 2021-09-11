@@ -1,7 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 h1, h2, h3, h4, h4, h5, h6, p, a, body, div {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-us-block {
+    grid-template-columns: 40% repeat(1, minmax(0, 1fr))
+}
+
+@media (max-width: 1024px) {
+    .about-us-block {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
