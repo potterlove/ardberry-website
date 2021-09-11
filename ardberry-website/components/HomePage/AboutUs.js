@@ -12,7 +12,7 @@ const AboutUs = () => {
           <div className="text-justify">
             <h2 className="text-3xl py-4 text-center font-medium"> About Us</h2>
             <div>
-              <p className="md:text-sm text-xs">
+              <p className="md:text-base text-sm">
                 A lot of people in India do not consult an Architect or an
                 Interior designer while designing their houses, because
                 designing is an expensive affair for middle class house owners

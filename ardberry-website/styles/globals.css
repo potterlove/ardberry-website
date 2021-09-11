@@ -15,3 +15,221 @@ h1, h2, h3, h4, h4, h5, h6, p, a, body, div {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
+
+.chooseus-item h4 {
+    transition: all 0.8s ease 0s;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chooseus-canvas-item, .chooseus-item {
+    position: relative;
+    padding: 0;
+    width: 310px;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.svg-hexagon {
+    width: 310px;
+    height: 350px;
+}
+
+.hexagon {
+    fill: transparent;
+    stroke: #b1967b;
+    stroke-width: 3;
+}
+
+.svg-triangle-dotted {
+    width: 256px;
+    height: 220px;
+}
+
+.svg-triangle-dotted {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+}
+
+.triangle-div {
+    cursor: pointer;
+    fill: none;
+    fill-opacity: 0;
+    stroke: #ccc;
+    stroke-width: 1;
+    stroke-dasharray: 4;
+}
+
+.triangle-img-warp {
+    -webkit-clip-path: polygon(0px 220px, 256px 220px, 128px 0px);
+}
+
+.tri {
+    top: 28px;
+    left: 28px;
+    transform: translateY(32px);
+    transition: all 1s ease-in-out;
+}
+
+.triangle-img-warp {
+    width: 256px;
+    height: 220px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.svg-triangle-dotted.svg-tri-2 {
+    transform: rotate(-30deg) translateY(40px);
+    left: -27px;
+}
+
+.triangle-img-warp img {
+    width: 130%;
+    max-width: 130%;
+    transition: all 0.8s ease-in-out;
+    display: block;
+    position: absolute;
+}
+
+.tri2 {
+    -webkit-clip-path: polygon(0px 256px, 220px 128px, 0px 0px);
+    transition: all 0.8s ease-in-out;
+    left: 95px;
+    top: 40px;
+    width: 300px;
+    height: 256px;
+}
+
+.svg-triangle-dotted.svg-tri-3 {
+    transform: rotate(-90deg) translateY(40px);
+    left: -30px;
+}
+
+.triangle-img-warp img {
+    width: 100%;
+    transition: all 0.8s ease-in-out;
+    display: block;
+    position: absolute;
+}
+
+.tri3 img {
+    left: -153px;
+    transform: scale(1.2, 1.2) rotate(90deg) translateY(-32px) translateX(-80px);
+}
+
+.tri3 {
+    transition: all 0.8s ease-in-out;
+    transform: rotate(-90deg) translateY(40px);
+    left: -48px;
+    top: 35px;
+    width: 300px;
+    height: 256px;
+}
+
+.svg-triangle-dotted.svg-tri-4 {
+    transform: rotate(-180deg) translateY(-74px);
+    left: 27px;
+}
+
+.svg-triangle-dotted {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+}
+
+.svg-triangle-dotted {
+    width: 256px;
+    height: 220px;
+}
+
+.tri4 {
+    transition: all 0.8s ease-in-out;
+    transform: rotate(-180deg) translateY(-74px);
+    left: 27px;
+    top: -10px;
+}
+
+.tri4 img {
+    transform: rotateX(180deg);
+}
+
+.chooseus-container .chooseus-item {
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.promotion-box {
+    display: inline-block;
+}
+
+.transform-0 img {
+    transform: translateX(0)!important;
+}
+
+@media (max-width: 1350px) {
+    .chooseus-container .chooseus-item {
+        float: none;
+        width: 50%;
+        float: left;
+    }
+    .svg-hexagon {
+        width: 310px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .chooseus-container .chooseus-item {
+        float: none;
+        width: 100%;
+    }
+    .svg-hexagon {
+        width: 310px;
+        height: 350px;
+    }
+}
+
+.fixbug-inline-block {
+    margin-top: -10px;
+}
+
+.padding {
+    padding: 20px 0 20px 0;
+    position: relative;
+    background-color: white;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 40px;
+}

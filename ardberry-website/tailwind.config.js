@@ -6,6 +6,9 @@ module.exports = {
       margin: {
         p15: '15%',
       },
+      backgroundColor: {
+        themeGolden: '#b1967b',
+      },
     },
   },
   variants: {
