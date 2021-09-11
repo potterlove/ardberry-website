@@ -1,6 +1,8 @@
-import AboutUs from 'components/HomePage/AboutUs'
-import HeaxgonDiv from 'components/HomePage/HexagonDiv'
-import HomeCarousel from 'components/HomePage/homeCarousel'
+import AboutUs from 'components/Home/AboutUs'
+import Gallery from 'components/Home/Gallery'
+import HeaxgonDiv from 'components/Home/HexagonDiv'
+import HomeCarousel from 'components/Home/homeCarousel'
+import PunchLine from 'components/Home/PunchLine'
 import Navbar from 'components/navbar'
 import 'tailwindcss/tailwind.css'
 
@@ -11,6 +13,8 @@ const Home = () => {
       <HomeCarousel />
       <AboutUs />
       <HeaxgonDiv />
+      <PunchLine />
+      <Gallery />
     </>
   )
 }

@@ -6,7 +6,7 @@ module.exports = {
       margin: {
         p15: '15%',
       },
-      backgroundColor: {
+      colors: {
         themeGolden: '#b1967b',
       },
     },
@@ -14,6 +14,7 @@ module.exports = {
   variants: {
     extend: {
       fontWeight: ['hover'],
+      padding: ['hover'],
     },
   },
   plugins: [],
