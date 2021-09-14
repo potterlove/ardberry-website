@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         themeGolden: '#b1967b',
       },
+      height: {
+        420: '26.5rem',
+      },
     },
   },
   variants: {
