@@ -4,6 +4,7 @@ import HeaxgonDiv from 'components/Home/HexagonDiv'
 import HomeCarousel from 'components/Home/homeCarousel'
 import HomeCatalog from 'components/Home/HomeCatalog'
 import PunchLine from 'components/Home/PunchLine'
+import ServiceTheBest from 'components/Home/ServiceTheBest'
 import WhoAreWe from 'components/Home/WhoAreWe'
 import Navbar from 'components/navbar'
 import 'tailwindcss/tailwind.css'
@@ -19,6 +20,7 @@ const Home = () => {
       <Gallery />
       <WhoAreWe />
       <HomeCatalog />
+      <ServiceTheBest />
     </>
   )
 }

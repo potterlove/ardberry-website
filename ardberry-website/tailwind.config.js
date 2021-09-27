@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         themeGolden: '#b1967b',
+        wheat: '#F5DEB3',
       },
       height: {
         420: '26.5rem',
