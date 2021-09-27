@@ -8,7 +8,7 @@ const HomeCarousel = () => {
       showThumbs={false}
       infiniteLoop={true}
       stopOnHover={false}
-      interval={2000}
+      interval={5000}
       autoPlay={true}
       showStatus={false}
     >

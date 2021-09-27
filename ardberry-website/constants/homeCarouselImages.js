@@ -4,8 +4,8 @@ const homeCarouselImages = [
   'image1.jpg',
   'image2.jpg',
   'image3.jpg',
-  'e1.png',
-  'e2.png',
+  'InShot_20210925_141226225.jpg',
+  'InShot_20210925_141157194.jpg',
   'Incuvations.jpg',
   'Incuvations2.jpg',
 ]
