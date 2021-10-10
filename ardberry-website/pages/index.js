@@ -1,3 +1,4 @@
+import Contact from 'components/Contact'
 import AboutUs from 'components/Home/AboutUs'
 import Gallery from 'components/Home/Gallery'
 import HeaxgonDiv from 'components/Home/HexagonDiv'
@@ -21,6 +22,7 @@ const Home = () => {
       <WhoAreWe />
       <HomeCatalog />
       <ServiceTheBest />
+      <Contact />
     </>
   )
 }
