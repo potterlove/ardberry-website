@@ -47,6 +47,45 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className="pl-4">
+          <div className="text-themeGolden">
+            <h4 className="text-3xl tracking-wider font-semibold">Address</h4>
+          </div>
+          <div className="pt-8">
+            <p className="text-themeGolden text-2xl pb-4">Head Office</p>
+            <p className="text-white text-base">
+              C/O KC Sahu
+              <br />
+              Near Iscon Temple,
+              <br />
+              Ankushpur,
+              <br />
+              Brahmapur,
+              <br />
+              Odisha 761100
+            </p>
+          </div>
+          <div className="text-4xl pt-12 text-themeGolden grid grid-cols-4 gap-1 w-2/3">
+            <a target="_blank" href="https://www.facebook.com/ardberry/">
+              <i className="fab fa-facebook-square"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/ardberrytechnology/"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/ArdberryT">
+              <i className="fab fa-twitter-square"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/ardberrytechnology/"
+            >
+              <i className="fab fa-instagram-square"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
