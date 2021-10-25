@@ -3,7 +3,7 @@ import galleryImages from 'constants/GalleryImages'
 
 const Gallery = () => {
   return (
-    <div className="w-full py-12 px-4 bg-themeGolden">
+    <div className="w-full py-12 px-12 bg-themeGolden">
       <div className="text-4xl font-medium pb-8 text-center">
         Our Inspirationl Designs
       </div>

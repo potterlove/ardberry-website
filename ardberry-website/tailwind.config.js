@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       margin: {
-        p15: '15%',
+        p12: '12%',
       },
       colors: {
         themeGolden: '#b1967b',

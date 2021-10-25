@@ -30,7 +30,11 @@ class MyDocument extends Document {
             href="https://i.ibb.co/hMbRc6K/at-1.png"
             type="image/x-icon"
           />
-          <title>Ardberry Technology Pvt. Ltd</title>
+          <script
+            src="https://kit.fontawesome.com/53b9bdb146.js"
+            crossorigin="anonymous"
+          ></script>
+          <title>Ardberry Technology</title>
         </Head>
         <body>
           <Main />

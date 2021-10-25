@@ -1,18 +1,18 @@
 const AboutUs = () => {
   return (
     <div
-      className="bg-white m-p15 z-10 relative shadow-lg mb-10 rounded-sm"
+      className="bg-white m-p12 z-10 relative shadow-lg mb-10 rounded-sm"
       style={{ marginTop: '-5%' }}
     >
       <div className="grid about-us-block">
         <div className="sm:p-20 p-14 flex flex-col items-center justify-center">
           <img src="/images/at.png" alt="" />
         </div>
-        <div className="lg:p-4 p-4 lg:pl-0">
+        <div className="lg:p-4 p-6 lg:pl-0 lg:pr-8">
           <div className="text-justify">
             <h2 className="text-3xl py-4 text-center font-medium"> About Us</h2>
             <div>
-              <p className="md:text-base text-sm">
+              <p className="text-sm">
                 A lot of people in India do not consult an Architect or an
                 Interior designer while designing their houses, because
                 designing is an expensive affair for middle class house owners
