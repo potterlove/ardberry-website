@@ -34,12 +34,10 @@ class MyDocument extends Document {
             src="https://kit.fontawesome.com/53b9bdb146.js"
             crossorigin="anonymous"
           ></script>
-          <title>Ardberry Technology</title>
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
         </body>
       </Html>
     )
