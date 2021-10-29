@@ -6,6 +6,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=.7" />
+        <title>Ardberry Technology</title>
       </Head>
       <Component {...pageProps} />
     </>

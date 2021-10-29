@@ -6,6 +6,7 @@ import classNames from '../utils/classNames.js'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import ClickAwayListener from 'react-click-away-listener'
+import throttling from 'utils/throttling.js'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -25,9 +26,19 @@ export default function Navbar({ isTransparentNav }) {
       }
     }
 
-    window.addEventListener('scroll', onScroll)
+    window.addEventListener(
+      'scroll',
+      throttling(() => {
+        onScroll()
+      }, 100)
+    )
     return () => {
-      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener(
+        'scroll',
+        throttling(() => {
+          onScroll()
+        }, 100)
+      )
     }
   }, [])
   const handleClickAway = () => {
@@ -37,14 +48,15 @@ export default function Navbar({ isTransparentNav }) {
   const redirectToHome = () => {
     router.push('/')
   }
-  const defaultNavClass = 'fixed top-0 left-0 right-0 w-full duration-300 z-20'
+  const defaultNavClass =
+    'ease-linear delay-500 fixed top-0 left-0 right-0 w-full duration-300 z-20'
   return (
     <Disclosure
       defaultOpen={false}
       as="nav"
       id="navbarTop"
       className={classNames(
-        isTransparent ? 'bg-transparent' : 'bg-white shadow-2xl',
+        isTransparent ? 'bg-transparent hidden' : 'bg-white shadow-2xl',
         defaultNavClass
       )}
     >
