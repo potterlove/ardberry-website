@@ -14,12 +14,10 @@ const AboutUs = () => {
             <div>
               <p className="text-sm">
                 Ardberry is an Indian parametric design boutique that designs and manufactures architectural products using mathematical algorithms. Our mission is to create stunning and affordable designs that elevate the class of any space. Our team of aesthetes with heightened perception of beautiful structures has been internationally recognized as top 10 designers in the world for their fabulous design of Notre dame de paris.
-                <br /> We are a group of researchers and Design enthusiasts, we
-                are trying to merge different domains of sciences to create
-                surreal, exquisite and bespoke architectural products. We are
-                recognized and supported by Govt. of Rajasthan and also been
-                honored and felicitated as top designers in various National and
-                International design platforms.
+                <br />
+                  We provide unique designs that are customized to our client's needs, and our production is indigenously done, reducing dependency and latency from the international market. Our products are highly price efficient as we are a material liberal, asset-free, and made-to-order company. We reduce our production time with our standardized parametric and just-in-time production method, along with our team of 1000+ installers and CNC fabricators.
+                  <br /> Our target clientele includes high-end interior projects like HORECA, experience centers, and TV sets. Our portfolio provides amazing substitutes for imported architectural materials in India, making us a perfect choice for clients looking for unique and cost-effective designs.
+                  <br /> Ardberry's product line includes a wide range of architectural products that are designed using mathematical algorithms. Our products are unique, customized, and affordable, making us a perfect choice for high-end interior projects. Our services include installation, maintenance, and repairs for our products. We also provide consultancy services to our clients to help them choose the right product for their needs.
               </p>
             </div>
           </div>
