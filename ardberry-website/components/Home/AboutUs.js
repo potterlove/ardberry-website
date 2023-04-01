@@ -13,15 +13,7 @@ const AboutUs = () => {
             <h2 className="text-3xl py-4 text-center font-medium"> About Us</h2>
             <div>
               <p className="text-sm">
-                A lot of people in India do not consult an Architect or an
-                Interior designer while designing their houses, because
-                designing is an expensive affair for middle class house owners
-                in India. The process of designing is actually a very expertise
-                and hard-working job, that’s why it is expensive. Hence we
-                design amazing and surreal architectural products and interiors
-                with the approach of computational designs FREE OF COST. Hence
-                once designed, we can alter or customize according to any
-                customers’ needs.
+                Ardberry is an Indian parametric design boutique that designs and manufactures architectural products using mathematical algorithms. Our mission is to create stunning and affordable designs that elevate the class of any space. Our team of aesthetes with heightened perception of beautiful structures has been internationally recognized as top 10 designers in the world for their fabulous design of Notre dame de paris.
                 <br /> We are a group of researchers and Design enthusiasts, we
                 are trying to merge different domains of sciences to create
                 surreal, exquisite and bespoke architectural products. We are
